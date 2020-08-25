@@ -106,9 +106,9 @@ body {
   background-color: gainsboro;
 }
 img {
-float: left;
-height: 50%;
-width: 50%;
+height: 75%;
+width: 75%;
+margin-left: 10%;
 }
 .img2 {
 float: left;
@@ -121,7 +121,6 @@ margin: 10px 20px 10px 30px;
   width: 50%;
   background-color: white;
   margin: 5%;
-
 }
 .container1 {
   float:left;
@@ -163,4 +162,3 @@ width:90%;
 width:90%;
 margin: 5%;
 }}
-
