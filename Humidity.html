@@ -15,37 +15,35 @@
 
 <body>
 
-  <nav id="navbar">
-    <!-- [THE HAMBURGER] -->
-    <label for="hamburger">&#9776;</label>
-    <input type="checkbox" id="hamburger"/>
+  <nav class="navbar navbar-inverse navbar-light light-blue lighten-4">
+    <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+    class="fas fa-bars fa-1x"></i></span></button>
 
-    <!-- [MENU ITEMS] -->
-    <div id="hamitems">
-      <div class='container-fluid'>
-      <div class=" nav navbar-nav navbar-left">
-        <div class="dropdown">
-          <a href="LandingPage.html">Latitude</a>
-        </div>
-      </div>
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand active" href="LandingPage.html">Latitude</a>
     </div>
-    <div class='container-fluid'>
-      <div class="nav navbar-nav navbar-right">
-        <div class="dropdown">
-          <a>Plots &raquo;</a> 
-          <div class="dropdown-content">
-            <a href="MaxTemperature.html">Max Temperature</a>
-            <a href="Humidity.html">Humidity</a>
-            <a href="Cloudiness.html">Cloudiness</a>
-            <a href="Wind Speed.html">Wind Speed</a>
-          </div>
-        </div>
-
-        <a href="Comparisons.html">Comparison</a>
-        <a href="Data.html">Data</a>
-      </div>
-    </div>
-  </nav>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots 
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="MaxTemperature.html">Max Temperatures</a></li>
+          <li><a href=Humidity.html>Humidity</a></li>
+          <li><a href="Cloudiness.html">Cloudiness</a></li>
+          <li><a href="Wind Speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="Comparisons.html">Comparisons</a></li>
+      <li><a href="Data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
 
 
     <div class="container">
@@ -83,7 +81,9 @@
   </div>
 </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>
